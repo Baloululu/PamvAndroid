@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pierres aux milles vertus</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_user">Email and/or password invalid.</string>
+    <string name="logout">You are logout</string>
+
+    <!--Menu-->
+    <string name="bracelets">Bracelets</string>
+    <string name="collier">Colliers</string>
+    <string name="pierres">Pierres</string>
+    <string name="boucles">Earrings</string>
+    <string name="cles">Key chain</string>
+    <string name="commentaires">Commentaires</string>
+    <string name="deconnexion">Logout</string>
+    <string name="actualize">Actualize</string>
+    <string name="new_Article">New article</string>
+
+    <!--Card-->
+    <string name="modify_card">Modify</string>
+    <string name="delete_card">Delete</string>
+    <string name="title">Title</string>
+    <string name="validate">Validate</string>
+    <string name="category">Category</string>
+    <string name="intro">Introduction</string>
+    <string name="delete_dialog_title">Delete</string>
+    <string name="delete_dialog_content">Do you really want delete this article ?</string>
+    <string name="delete_success">Delete success</string>
+
+    <!--Dialog-->
+    <string name="AddPhoto">Add photo</string>
+    <string name="TakePhoto">Take photo</string>
+    <string name="PickPhoto">Choose photo</string>
+    <string name="Cancel">Cancel</string>
+
+    <!--FCM-->
+    <string name="fcm_message_comment">New comment</string>
+
+</resources>

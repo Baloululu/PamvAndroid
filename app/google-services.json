@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "360780819676",
+    "firebase_url": "https://pamvadmin.firebaseio.com",
+    "project_id": "pamvadmin",
+    "storage_bucket": "pamvadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360780819676:android:afc790a3ae03988c",
+        "android_client_info": {
+          "package_name": "fr.pamv.pamvadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360780819676-chq65t7l5ktohnc03o69kpb5b8b9r0vv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.pamv.pamvadmin",
+            "certificate_hash": "977d071e89ebbea0d191c93fffecfe5e0452c89a"
+          }
+        },
+        {
+          "client_id": "360780819676-7rjqa3qrattk3rdprhg68na01harsiqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAia0UaEjpQrhIdOwgKYuxf9Wj28X77nJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360780819676-7rjqa3qrattk3rdprhg68na01harsiqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

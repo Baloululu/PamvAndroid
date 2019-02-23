@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pierres aux milles vertus</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="error_invalid_email">Adresse email invalide</string>
+    <string name="error_incorrect_password">Mot de passe incorrect</string>
+    <string name="error_field_required">Champ requis</string>
+    <string name="error_user">L\'email et/ou le mot de passe est invalide.</string>
+    <string name="logout">Vous êtes déconnecter</string>
+
+    <!--Menu-->
+    <string name="bracelets">Bracelets</string>
+    <string name="collier">Colliers</string>
+    <string name="pierres">Pierres</string>
+    <string name="boucles">Boucles d\'oreilles</string>
+    <string name="cles">Porte-clefs</string>
+    <string name="commentaires">Commentaires</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="actualize">Actualiser</string>
+    <string name="new_Article">Nouvel article</string>
+
+    <!--Card-->
+    <string name="modify_card">Modifier</string>
+    <string name="delete_card">Supprimer</string>
+    <string name="title">Titre</string>
+    <string name="validate">Valider</string>
+    <string name="category">Catégorie</string>
+    <string name="intro">Présentation</string>
+    <string name="delete_dialog_title">Supprimer</string>
+    <string name="delete_dialog_content">Etes vous sûr de vouloir supprimer cet article ?</string>
+    <string name="delete_success">Suppression réussit</string>
+
+    <!--Dialog-->
+    <string name="AddPhoto">Ajouter une photo</string>
+    <string name="TakePhoto">Prendre une photo</string>
+    <string name="PickPhoto">Choisir une photo</string>
+    <string name="Cancel">Annuler</string>
+
+    <!--FCM-->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message_comment">Nouveau commentaire</string>
+
+</resources>

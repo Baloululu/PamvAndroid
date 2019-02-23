@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:id="@+id/edit_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/edit_category_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/category" />
+
+                <Spinner
+                    android:id="@+id/edit_spinner"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/title"
+                    android:textColor="@color/primaryColor" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/intro"
+                    android:inputType="textMultiLine"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/action_undo"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/undo" />
+
+                    <ImageButton
+                        android:id="@+id/action_redo"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/redo" />
+
+                    <ImageButton
+                        android:id="@+id/action_bold"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/bold" />
+
+                    <ImageButton
+                        android:id="@+id/action_italic"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/italic" />
+
+
+                    <ImageButton
+                        android:id="@+id/action_underline"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/underline" />
+
+                    <ImageButton
+                        android:id="@+id/action_align_left"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/justify_left" />
+
+                    <ImageButton
+                        android:id="@+id/action_align_center"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/justify_center" />
+
+                    <ImageButton
+                        android:id="@+id/action_align_right"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/justify_right" />
+
+                    <ImageButton
+                        android:id="@+id/action_insert_bullets"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/bullets" />
+
+                    <ImageButton
+                        android:id="@+id/action_insert_numbers"
+                        android:layout_width="32dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/numbers" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <jp.wasabeef.richeditor.RichEditor
+                android:id="@+id/edit_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/edit_valide"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/validate"
+                android:textColor="@color/secondaryTextColor" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
